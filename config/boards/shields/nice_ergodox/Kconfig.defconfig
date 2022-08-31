@@ -1,0 +1,15 @@
+
+if SHIELD_NICE_ERGODOX_LEFT
+
+config ZMK_KEYBOARD_NAME
+	default "Nice ErgoDox"
+	
+config ZMK_SPLIT_BLE_ROLE_CENTRAL
+	default y
+endif
+
+if SHIELD_NICE_ERGODOX_LEFT || SHIELD_NICE_ERGODOX_RIGHT
+
+config ZMK_SPLIT
+	default y
+endif
