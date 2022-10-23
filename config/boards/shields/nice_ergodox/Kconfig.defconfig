@@ -1,5 +1,5 @@
 
-if SHIELD_NICE_ERGODOX_LEFT
+if SHIELD_NICE_ERGODOX_RIGHT
 
 config ZMK_KEYBOARD_NAME
 	default "Nice ErgoDox"
