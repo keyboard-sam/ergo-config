@@ -17,5 +17,3 @@ include:
     shield: nice_ergodox_left
   - board: nice_nano_v2
     shield: nice_ergodox_right
-  - board: nice_nano_v2
-    shield: settings_reset
