@@ -17,7 +17,7 @@
 	&kp LSFT   &kp Z      &kp X      &kp C      &kp V      &kp B      &kp TAB       &kp RPAR     &kp N      &kp M      &kp CMMA   &kp DOT    &kp FSLH   &kp RSFT
 	&kp ESC    &kp GRAV   &kp LBKT   &kp LSFT   &kp LCMD                                                    &kp LEFT   &kp UP     &kp RARW   &kp DOWN   &kp LALT
 	                                                       &kp SPC    &kp LCMD      &kp NUM_1    &kp NUM_2
-	                                            &kp BKSP   &kp DEL    &kp NUM_4     &kp NUM_3    &kp NUM_4      &kp NUM_5
+	                                            &kp BKSP   &kp DEL    &mo LOWER     &kp NUM_3    &kp NUM_4      &kp NUM_5
 	                                                                  &kp NUM_1     &kp NUM_6
 			>;
 		};
