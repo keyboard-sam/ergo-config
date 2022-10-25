@@ -12,36 +12,36 @@
 		compatible = "zmk,keymap";
 		layer_0 {
 			bindings = <
-	&kp ESC    &kp NUM_1  &kp NUM_2  &kp NUM_3  &kp NUM_4  &kp NUM_5  &kp LPAR      &kp RPAR     &kp NUM_6  &kp NUM_7  &kp NUM_8  &kp NUM_9  &kp NUM_0  &kp BSLH
-	&kp TAB    &kp Q      &kp W      &kp E      &kp R      &kp T      &kp LBKT      &kp RBKT     &kp Y      &kp U      &kp I      &kp O      &kp P      &kp BSLH
-	&kp CAPS   &kp A      &kp S      &kp D      &kp F      &kp G                                 &kp H      &kp J      &kp K      &kp L      &kp SCLN   &kp QUOT
-	&kp LSFT   &kp Z      &kp X      &kp C      &kp V      &kp B      &kp TAB       &tog DEFAULT &kp N      &kp M      &kp CMMA   &kp DOT    &kp FSLH   &kp RSFT
-	&kp LCTRL  &none      &none      &none      &kp LCTRL                                                   &none      &none      &none      &none      &kp RALT
-	                                                       &kp LALT   &tog DEFAULT  &tog FUNC    &kp RALT
-	                                            &kp SPC    &kp LCMD   &mo FUNC      &tog LOWER   &kp RCMD      &kp SPC
-	                                                                  &mo LOWER     &kp NUM_6
+	&kp ESC         &kp NUM_1       &kp NUM_2       &kp NUM_3   &kp NUM_4   &kp NUM_5       &kp LPAR                    &kp RPAR        &kp NUM_6   &kp NUM_7    &kp NUM_8  &kp NUM_9  &kp NUM_0  &kp BSPC
+	&kp TAB         &kp Q           &kp W           &kp E       &kp R       &kp T           &kp LBKT                    &kp RBKT        &kp Y       &kp U        &kp I      &kp O      &kp P      &kp BSLH
+	&kp CAPS        &kp A           &kp S           &kp D       &kp F       &kp G                                                       &kp H       &kp J        &kp K      &kp L      &kp SCLN   &kp QUOT
+	&kp LSFT        &kp Z           &kp X           &kp C       &kp V       &kp B           &kp TAB                     &kp RSFT        &kp N       &kp M        &kp CMMA   &kp DOT    &kp FSLH   &kp RSFT
+	&kp LCTRL       &none           &none           &none       &kp LCTRL                                                               &kp RET     &none        &none      &none      &kp RCTRL
+	                                                                        &kp LALT        &none                       &tog FUNC       &kp RALT
+	                                                            &kp SPC     &kp LCMD        &mo FUNC                    &tog LOWER      &kp RCMD      &kp SPC
+	                                                                                        &mo LOWER                   &kp BSPC
 			>;
 		};
 		layer_1 {
 			bindings = <
-	&kp GRAVE  &kp NUM_1  &kp NUM_2  &kp NUM_3  &kp NUM_4  &kp NUM_5    &kp LPAR        &kp RPAR        &kp NUM_6   &kp NUM_7  &kp NUM_8  &kp NUM_9  &kp NUM_0  &kp BSLH
-	&none      &none      &kp UP      &none      &none      &none       &none           &none           &none       &none      &none      &kp MINUS  &kp PLUS   &kp EQUAL
-	&kp LCTRL  &kp LEFT   &kp DOWN    &kp RIGHT  &kp F      &kp G                                       &kp H       &kp J      &kp UP     &kp L      &kp SCLN   &kp QUOT
-	&kp LSFT   &kp Z      &kp X       &kp C      &kp V      &kp B       &kp TAB         &tog DEFAULT    &kp N       &kp LEFT   &kp DOWN   &kp RIGHT  &kp FSLH   &kp RSFT
-	&kp LCTRL  &none      &none      &none      &kp LCTRL                                                           &none      &none      &none      &none      &kp RALT
+	&kp GRAVE  &kp NUM_1  &kp NUM_2  &kp NUM_3  &kp NUM_4  &kp NUM_5    &kp LPAR        &kp RPAR        &kp NUM_6   &kp NUM_7       &kp NUM_8  &kp NUM_9  &kp NUM_0  &kp DEL
+	&none      &none      &kp UP      &none      &none      &none       &none           &none           &none       &none           &none      &kp MINUS  &kp PLUS   &kp EQUAL
+	&kp LCTRL  &kp LEFT   &kp DOWN    &kp RIGHT  &kp F      &kp G                                       &kp H       &kp J           &kp UP     &kp L      &kp SCLN   &kp QUOT
+	&kp LSFT   &kp Z      &kp X       &kp C      &kp V      &kp B       &kp TAB         &tog DEFAULT    &kp N       &kp LEFT        &kp DOWN   &kp RIGHT  &kp FSLH   &kp RSFT
+	&kp LCTRL       &none           &none           &none      &kp LCTRL                                            &tog DEFAULT    &none      &none      &none      &kp RCTRL
 	                                                        &kp LALT    &tog DEFAULT    &tog FUNC    &kp RALT
 	                                            &kp SPC     &kp LCMD    &mo FUNC        &tog LOWER   &kp RCMD      &kp SPC
-	                                                                    &mo LOWER       &kp NUM_6
+	                                                                    &mo LOWER       &kp BSPC
 			>;
 		};
 		layer_2 {
 			bindings = <
-	&kp GRAVE  &kp F1     &kp F2      &kp F3    &kp F4      &kp F5      &none           &none           &kp F6      &kp F7      &kp F8      &kp F9      &kp F10     &kp F11
-	&none      &none      &kp UP      &none     &none       &none       &none           &none           &kp F1      &kp F2      &kp F3      &kp F4      &kp F5      &none
-	&kp LCTRL  &kp LEFT   &kp DOWN    &kp RIGHT  &kp F      &kp G                                       &kp F6      &kp F7      &kp F8      &kp F9      &kp F10     &none
-	&kp LSFT   &kp Z      &kp X       &kp C      &kp V      &kp B       &kp TAB         &tog DEFAULT    &kp F11     &kp F12     &kp F13     &kp F14     &kp F15     &none
-	&kp LCTRL  &none      &none      &none      &kp LCTRL                                                           &none       &none       &none       &none       &kp RALT
-	                                                        &kp LALT    &tog DEFAULT    &tog FUNC       &kp RALT
+	&kp GRAVE  &kp F1       &kp F2        &kp F3        &kp F4      &kp F5      &kp F6          &kp F7          &kp F8          &kp F9      &kp F10     &kp F11     &kp F12     &kp BSPC
+	&none      &bt BT_CLR   &bt BT_CLR    &bt BT_CLR    &bt BT_CLR  &bt BT_CLR  &bt BT_CLR      &none           &kp F1          &kp F2      &kp F3      &kp F4      &none       &none
+	&kp LCTRL  &kp LEFT     &kp DOWN      &kp RIGHT     &kp F      &kp G                                       &kp F5          &kp F6      &kp F7      &kp F8      &none       &none
+	&kp LSFT   &kp Z        &kp X         &kp C         &kp V      &kp B       &kp TAB         &tog DEFAULT    &kp F9          &kp F10     &kp F11     &kp F12     &none       &none
+	&kp LCTRL  &none        &none         &none         &kp LCTRL                                              &tog DEFAULT    &none       &none      &none      &kp RCTRL
+	                                                        &kp LALT    &tog DEFAULT    &none           &kp RALT
 	                                            &kp SPC     &kp LCMD    &mo FUNC        &tog LOWER      &kp RCMD    &kp SPC
 	                                                                    &mo LOWER       &kp NUM_6
 			>;
