@@ -18,7 +18,7 @@
                 &kp TAB         &kp Q           &kp W           &kp E       &kp R       &kp T           &kp LBKT                    &kp RBKT        &kp Y       &kp U           &kp I           &kp O           &kp P           &kp BSLH
                 &kp CAPS        &kp A           &kp S           &kp D       &kp F       &kp G                                                       &kp H       &kp J           &kp K           &kp L           &kp SCLN        &kp QUOT
                 &kp LSFT        &kp Z           &kp X           &kp C       &kp V       &kp B           &kp TAB                     &kp RSFT        &kp N       &kp M           &kp CMMA        &kp DOT         &kp UP          &kp FSLH
-                &kp LCTRL       &kp LALT        &kp LCMD        &none       &none                                                                               &kp RET         &to ALPHA       &kp LEFT        &kp DOWN        &kp RIGHT
+                &kp LCTRL       &kp LALT        &kp LCMD        &none       &kp LCTRL                                                                           &kp RET         &to ALPHA       &kp LEFT        &kp DOWN        &kp RIGHT
                                                                                         &kp LALT        &tog FUNC                   &tog FUNC       &kp RALT
                                                                             &kp SPC     &kp LCMD        &mo FUNC                    &mo FUNC        &kp RCMD      &kp SPC
                                                                                                         &none                       &kp BSPC
