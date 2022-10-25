@@ -15,7 +15,7 @@
 	&kp LCTRL   &kp GRAV    &kp LBKT    &kp LSFT    &kp LCMD                                                                &kp EQUAL   &kp RARW    &kp DOWN    &kp LALT
 	                                                            &kp BKSP    &kp LCMD            &kp NUM_1   &kp NUM_2
 	                                                &kp SPC     &kp DEL     &kp NUM_4           &kp NUM_3   &kp RET         &kp SPC
-                                                                            &mo 1               &kp NUM_6
+                                                                            &kp NUM_4           &kp NUM_6
 			>;
 		};
 	};
