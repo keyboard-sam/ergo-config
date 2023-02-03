@@ -19,7 +19,7 @@
                 &kp TAB         &kp Q           &kp W           &kp E       &kp R       &kp T           &kp TAB                     &to ALPHA       &kp Y       &kp U           &kp I           &kp O           &kp P           &kp BSLH
                 &kp CAPS        &kp A           &kp S           &kp D       &kp F       &kp G                                                       &kp H       &kp J           &kp K           &kp L           &kp SCLN        &kp RET
                 &kp LSFT        &kp Z           &kp X           &kp C       &kp V       &kp B           &kp LSFT                    &kp RSFT        &kp N       &kp M           &kp CMMA        &kp DOT         &kp UP          &kp RSFT
-                &kp LCTRL       &kp LALT        &kp LCMD        &kp LCTRL   &mo SYM                                                                             &mo FUNC        &kp RCTRL       &kp LEFT        &kp DOWN        &kp RIGHT
+                &kp LCTRL       &kp LALT        &kp LCMD        &kp LCTRL   &mo SYM                                                                             &mo FUNC        &kp CMMA       &kp LEFT        &kp DOWN        &kp RIGHT
                                                                                         &kp LEFT        &kp UP                      &kp DOWN        &kp RIGHT
                                                                             &kp SPC     &kp LCMD        &mo FUNC                    &kp BSPC        &kp RCMD    &kp SPC
                                                                                                         &kp LALT                    &kp RALT
@@ -32,7 +32,7 @@
                 &kp TAB         &none           &none           &none       &none       &none           &kp TAB                     &to ALPHA       &kp GRAVE   &kp LBRC        &kp RBRC        &kp LBKT        &kp RBKT        &kp BSLH
                 &kp CAPS        &none           &none           &none       &none       &none                                                       &none       &kp PIPE        &kp COLON       &kp SCLN        &kp SQT         &kp RET
                 &kp LSFT        &none           &none           &none       &none       &none           &kp LSFT                    &kp RSFT        &kp LT      &kp GT          &kp CMMA        &kp DOT         &kp FSLH        &kp RSFT
-                &kp LCTRL       &kp LALT        &kp LCMD        &kp LCTRL   &mo SYM                                                                             &mo FUNC        &none           &none           &none           &none
+                &kp LCTRL       &kp LALT        &kp LCMD        &kp LCTRL   &mo SYM                                                                             &mo FUNC        &kp CMMA           &kp LEFT        &kp DOWN        &kp RIGHT
                                                                                         &kp LEFT        &kp UP                      &kp DOWN        &kp RIGHT
                                                                             &kp SPC     &kp LCMD        &mo FUNC                    &kp BSPC        &kp RCMD    &kp SPC
                                                                                                         &kp LALT                    &kp RALT
@@ -45,7 +45,7 @@
                 &none           &kp F5          &kp F6          &kp F7      &kp F4      &none           &none                       &to ALPHA       &none       &none           &none           &none           &none           &kp DEL
                 &none           &kp F9          &kp F10         &kp F11     &kp F12     &bt BT_CLR                                                  &bt BT_CLR  &none           &none           &none           &none           &none
                 &kp LSFT        &kp F13         &kp F14         &kp F15     &kp F16     &none           &kp LSFT                    &kp RSFT        &none       &none           &none           &none           &kp UP          &none
-                &kp LCTRL       &kp LALT        &kp LCMD        &kp LCTRL   &mo SYM                                                                             &mo FUNC        &none           &kp LEFT        &kp DOWN        &kp RIGHT
+                &kp LCTRL       &kp LALT        &kp LCMD        &kp LCTRL   &mo SYM                                                                             &mo FUNC        &kp CMMA           &kp LEFT        &kp DOWN        &kp RIGHT
                                                                                         &kp LEFT        &kp UP                      &kp DOWN        &kp RIGHT
                                                                             &kp SPC     &kp LCMD        &mo FUNC                    &kp BSPC        &kp RCMD    &kp SPC
                                                                                                         &kp LALT                    &kp RALT
