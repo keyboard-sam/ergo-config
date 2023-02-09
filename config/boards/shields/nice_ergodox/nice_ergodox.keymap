@@ -20,7 +20,7 @@
                 &kp LSFT        &kp Z           &kp X           &kp C       &kp V       &kp B           &kp LSFT                    &kp RSFT        &kp N       &kp M           &kp CMMA        &kp DOT         &kp UP          &kp RSFT
                 &kp LCTRL       &kp LALT        &kp LCMD        &kp LCTRL   &mo SYM                                                                             &mo SYM         &kp RCTRL       &kp LEFT        &kp DOWN        &kp RIGHT
                                                                                         &kp LEFT        &kp UP                      &kp DOWN        &kp RIGHT
-                                                                            &kp SPC     &kp LCMD        &mo THIRD                   &kp BSPC        &kp RCMD    &kp SPC
+                                                                            &kp SPC     &kp LCMD        &mo SYM                     &kp BSPC        &kp RCMD    &kp SPC
                                                                                                         &kp LALT                    &kp RALT
 			>;
 		};
@@ -33,7 +33,7 @@
                 &kp LSFT        &none           &none           &none       &none       &none           &kp LSFT                    &kp RSFT        &kp LT      &kp GT          &kp CMMA        &kp DOT         &kp FSLH        &kp RSFT
                 &kp LCTRL       &kp LALT        &kp LCMD        &kp LCTRL   &mo SYM                                                                             &mo SYM         &kp RCTRL       &kp LEFT        &kp DOWN        &kp RIGHT
                                                                                         &kp LEFT        &kp UP                      &kp DOWN        &kp RIGHT
-                                                                            &kp SPC     &kp LCMD        &mo THIRD                   &kp DEL         &kp RCMD    &kp SPC
+                                                                            &kp SPC     &kp LCMD        &mo SYM                     &kp DEL         &kp RCMD    &kp SPC
                                                                                                         &kp LALT                    &kp RALT
 			>;
 		};
