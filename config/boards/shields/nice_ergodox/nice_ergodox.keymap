@@ -35,7 +35,7 @@
             bindings = <&kp LALT>, <&kp RCTRL>;
         };
 
-        RALT_NUM: ALT_NUM_LAYER {
+        RALT_NUM: RALT_NUM_LAYER {
             compatible = "zmk,behavior-tap-dance";
             label = "ALT_NUM_LAYER";
             #binding-cells = <0>;
@@ -43,7 +43,7 @@
             bindings = <&kp RALT>, <&mo NUM>;
         };
 
-        LALT_NUM: ALT_NUM_LAYER {
+        LALT_NUM: LALT_NUM_LAYER {
             compatible = "zmk,behavior-tap-dance";
             label = "ALT_NUM_LAYER";
             #binding-cells = <0>;
