@@ -60,17 +60,17 @@
             bindings = <&kp>, <&kp>;
         };
 
-        LCMD_NUM_FUNC: CMD_NUM_FUNC_LAYER {
+        LCMD_NUM_FUNC: LCMD_NUM_FUNC_LAYER {
             compatible = "zmk,behavior-tap-dance";
-            label = "CMD_NUM_FUNC_LAYER";
+            label = "LCMD_NUM_FUNC_LAYER";
             #binding-cells = <0>;
             tapping-term-ms = <300>;
             bindings = <&kp LCMD>, <&mo NUM>, <&mo FUNC>;
         };
 
-        RCMD_NUM_FUNC: CMD_NUM_FUNC_LAYER {
+        RCMD_NUM_FUNC: RCMD_NUM_FUNC_LAYER {
             compatible = "zmk,behavior-tap-dance";
-            label = "CMD_NUM_FUNC_LAYER";
+            label = "RCMD_NUM_FUNC_LAYER";
             #binding-cells = <0>;
             tapping-term-ms = <300>;
             bindings = <&kp RCMD>, <&mo NUM>, <&mo FUNC>;
